@@ -14,8 +14,6 @@ class Solution:
 
             opt[i] = b + 1
 
-        print(opt)
-
         return max(opt)
 
 print( Solution().lengthOfLIS( [3,5,6,2,5,4,19,5,6,7,12] ) )
