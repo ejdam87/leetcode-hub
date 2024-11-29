@@ -1,7 +1,8 @@
 #include <vector>
 #include <iostream>
 
-struct TreeNode {
+struct TreeNode
+{
      int val;
      TreeNode *left;
      TreeNode *right;
